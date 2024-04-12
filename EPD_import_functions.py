@@ -6,7 +6,6 @@ import pandas as pd
 #Connect to the first node of the API data
 def connect_node_1(headers, params, valid_untill):
     api_url = f"https://data.eco-platform.org/resource/processes?search=true&distributed=true&virtual=true&metaDataOnly=false&validUntil={valid_untill}&format=json"
-    #api_url=  f"https://data.eco-platform.org/resource/processes?search=true&distributed=true&virtual=true&metaDataOnly=false&validUntil=2022"
     response = requests.get(api_url, headers=headers, params=params)
     
     if response.status_code == 200:
