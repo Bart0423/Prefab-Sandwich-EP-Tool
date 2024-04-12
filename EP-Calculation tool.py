@@ -2086,8 +2086,8 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         #parameters for the calling of the connect node 1 fuction
         self.headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJCYXJ0MDQyMyIsImlzcyI6IkVDT1BPUlRBTCIsImF1ZCI6ImFueSIsInZlciI6IjcuOS40IiwicGVybWlzc2lvbnMiOlsidXNlcjpyZWFkLHdyaXRlOjUyNCIsInN0b2NrOnJlYWQsZXhwb3J0OjIiLCJzdG9jazpyZWFkLGV4cG9ydDoxIl0sInJvbGVzIjpbXSwiaWF0IjoxNzA5MDQ4MzIyLCJleHAiOjE3MTY5MzIzMjIsImVtYWlsIjoibC5hLm0udi5kLmNhbW1lbkBzdHVkZW50LnR1ZS5ubCIsInRpdGxlIjoiIiwiZmlyc3ROYW1lIjoiQmFydCIsImxhc3ROYW1lIjoidmFuIGRlciBDYW1tZW4iLCJnZW5lcmF0ZU5ld1Rva2VucyI6ZmFsc2UsImpvYlBvc2l0aW9uIjoiTWFzdGVyIEdyYWR1YXRpb24gc3R1ZGVudCIsImFkZHJlc3MiOnsiY2l0eSI6IiIsInppcENvZGUiOiIiLCJjb3VudHJ5IjoiTkwiLCJzdHJlZXQiOiIifSwib3JnYW5pemF0aW9uIjp7fSwidXNlckdyb3VwcyI6W3sidXNlckdyb3VwTmFtZSI6InJlZ2lzdGVyZWRfdXNlcnMiLCJ1c2VyR3JvdXBPcmdhbml6YXRpb25OYW1lIjoiRGVmYXVsdCBPcmdhbml6YXRpb24ifV0sImFkbWluaXN0cmF0ZWRPcmdhbml6YXRpb25zTmFtZXMiOiIiLCJwaG9uZSI6IiIsImRzcHVycG9zZSI6Ik1pam4gYWZzdHVkZWVyb25kZXJ6b2VrIG5hYXIgaGV0IG1ha2VuIHZhbiBFUEQncyAgdm9vciBwcmVmYWJyaWNhdGllIGVsZW1lbnRlbiIsInNlY3RvciI6IiIsImluc3RpdHV0aW9uIjoiVGVjaG5pc2NoZSB1bml2ZXJzaXRlaXQgRWluZGhvdmVuIn0.alv8gh_Rr_vJJGOYhfXWeQe0JVl3E_8CvEjXEiMTwKM9BZxYkfMyGLOMbHJC18aoa4cUmJzgOmY4tMCWOvhOM-iwFvbjsPnQT4I4NQiiLy_455O9kSR5qPu21kb7BUyvVDwDqzn_UqBAL2RlXBwazGKFNCrarpoGFt7z_r5n8ew" 
-         }
+        "Authorization": "Bearer #insert key
+        }
         self.params = {
         "pageSize": "10000",
         "format": "JSON",   
