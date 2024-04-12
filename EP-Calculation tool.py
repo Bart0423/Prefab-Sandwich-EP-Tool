@@ -2919,8 +2919,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = MyMainWindow()
-    icon = QIcon(r'C:\\Users\\b.vandercammen\\OneDrive - Byldis\\Afstuderen\\10. Figures\\Byldis_logo_RGB_R2.jpg')
-    #icon = QIcon(r'C:\\Users\\bartv\\OneDrive - Byldis\\Afstuderen\\10. Figures\\Byldis_logo_RGB_R2.jpg')
+    icon = QIcon
     MainWindow.setWindowIcon(icon)
     MainWindow.show()
     app.exec_()
