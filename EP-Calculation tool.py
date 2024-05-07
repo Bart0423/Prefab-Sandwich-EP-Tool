@@ -1483,7 +1483,6 @@ class Ui_MainWindow(object):
         
         return self.name_transport_dict_tab2
 
-    #FUNCTION DOES NOT WORK YET
     def remove_row(self, row):
         # Remove widgets associated with the row
         if row < 10:
